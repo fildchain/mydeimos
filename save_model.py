@@ -40,7 +40,7 @@ y_pred = rfr.predict(x_test)
 #- R-squared的值界定在0~1
 #- 当R-squared值超过0.5以上时才被认为模型有良好的预测能力
 
-r2 = r2_score(y_tes,y_pred)
+r2 = r2_score(y_test,y_pred)
 
 #使用with语句，简化文件操作
 #open()函数和'wb'参数用于创建并写入字节流
